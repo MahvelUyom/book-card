@@ -1,0 +1,70 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background:cornflowerblue;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.card{
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  height:70vh;
+  width:330px;
+}
+.main{
+  padding:7px;
+}
+.pay{
+  display:flex;
+ justify-content: space-between;
+  background: whitesmoke;
+  border-radius:6px;
+}
+.pay p{
+  margin:20px;
+}
+.pay i{
+  font-size: 23px;
+  color:midnightblue;
+}
+.pay a{
+  font-weight:600;
+  color: lightblue;
+}
+h1{
+  color:midnightblue;
+}
+p{
+  color:darkgrey;
+  font-weight: 800px;
+  font-size: 20px;
+}
+button{
+  width:100%;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+}
+.proceed{
+  background: darkblue;
+  color:whitesmoke;
+}
+.cancel{
+  background:white;
+  color:darkgrey;
+}
+.bold{
+  font-weight: 20px;
+  color:midnightblue;
+  font-weight: 600;
+}
+
+.cancel:hover{
+  color:whitesmoke;
+  background:midnightblue;
+  transition: .3s;
+}
